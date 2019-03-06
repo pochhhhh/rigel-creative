@@ -35,7 +35,7 @@ class LoadingScreen{
 
     this.navbar.addEventListener('click', this.start.bind(this));
     document.querySelector('.loading-screen').style.transition = "0s";
-    document.querySelector('.loading-screen').style.background = "black";
+    document.querySelector('.loading-screen').style.background = "#1C1C1C";
 
   }
 

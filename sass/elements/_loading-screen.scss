@@ -14,10 +14,8 @@ loading-screen class - set visibility to visible while load then after, set visi
 
   height: 100vh;
   width: 100vw;
-  //background: black !important;
   position: absolute;
   top:0;
-  //z-index: 6;
   opacity: 1;
   transition: 1.4s ease;
   //transform: rotate(-90deg); //If you want to rotate the circle but it will also rotate text

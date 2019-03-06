@@ -32,7 +32,8 @@ footer{
 
     .container{
 
-      height: 60%;
+      //background: yellow;
+      height: 40%;
       width: 100%;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -49,18 +50,18 @@ footer{
       height: 100%;
       width: 100%;
       border-radius: 50%;
-      background: navy;
+      background: #F9F9F9;
 
         a{
 
-          color:white !important;
+          color:$offblack !important;
 
         }
         i{
 
           position: relative;
-          top:0.8rem;
-          left:1.0rem;
+          top:0.5rem;
+          left:0.6rem;
 
 
         }
@@ -70,6 +71,70 @@ footer{
 
 
   }
+
+
+}
+
+@media(min-width: 768px){
+
+  footer{
+
+    .info{
+
+      font-size: 1.5rem;
+
+
+    }
+
+    .social-media-panel{
+
+      h3{
+
+      font-size: 2.5rem;
+      position: relative;
+      margin: 5% 0 5% 0;
+
+
+      }
+
+
+      .container{
+
+        height: 20vh !important;
+
+      }
+
+      .circle{
+
+        a{
+
+
+
+        }
+
+        i{
+
+          font-size: 3.5rem;
+          left: 2.4rem !important;
+          top: 1.8rem !important;
+
+        }
+
+
+      }
+
+
+
+    }
+
+
+
+  }
+
+
+
+
+
 
 
 }

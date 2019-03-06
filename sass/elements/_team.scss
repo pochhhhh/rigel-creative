@@ -1,23 +1,44 @@
 #the-team{
 
-  background: purple;
+  background: #F9F9F9;
+  height: auto;
 
   .container{
 
     height: auto;
     width: 100vw;
-    background: yellow;
+    background: #F9F9F9;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap:0.8rem;
+    padding:10%;
+
+  }
+
+  .caption{
+
+
+    padding: 10%;
+
+
+    h1{
+
+      text-align: center;
+      color: gray !important;
+      font-size: 1.8rem;
+
+
+    }
 
   }
 
   .team-member{
 
     height: 60vh;
-    background: red;
+    background: #F9F9F9;
     padding:5%;
+    //border: 1px solid gray;
+    //border-radius: 0.5rem;
 
     .photo{
 
@@ -36,12 +57,23 @@
     .name-title{
 
       height: 20%;
-      background: pink;
+      background: white;
+      text-align: center;
+
+      h1{
+
+        padding-left: 0.5rem;
+        font-size:1.8rem;
+        position: relative;
+        top:1.1rem;
+
+      }
 
       p{
 
         position: relative;
-        bottom:1rem;
+        top:0.5rem;
+        padding-left: 0.5rem;
 
 
       }
@@ -51,6 +83,32 @@
 
   }
 
+
+
+}
+
+
+@media(min-width: 768px){
+
+  #the-team{
+
+    .container{
+
+      padding: 5%;
+      grid-template-columns: 1fr 1fr;
+      //grid-gap: 10%;
+
+
+    }
+
+    .team-member{
+
+
+
+    }
+
+
+  }
 
 
 }
