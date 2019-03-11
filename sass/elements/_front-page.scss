@@ -318,7 +318,7 @@ svg{
   .frontpage__services{
 
     h3{
-      
+
       font-size: 2.8rem;
 
 
@@ -327,6 +327,35 @@ svg{
     ul{
 
       font-size: 1.7rem;
+
+
+    }
+
+
+  }
+
+
+
+}
+
+
+@media(min-width: 1200px){
+
+
+  .frontpage__services{
+
+    padding: 5% !important;
+
+    h3{
+
+      //font-size: 2.8rem;
+
+
+    }
+
+    ul{
+
+      font-size: 2.5rem;
 
 
     }

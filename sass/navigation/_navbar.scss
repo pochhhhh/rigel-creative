@@ -7,6 +7,12 @@ nav{
 
   }
 
+  .nav-link{
+
+    text-transform: uppercase;
+
+  }
+
 
 }
 
@@ -51,9 +57,31 @@ border: none !important;
   .navbar-brand{
 
     font-size: 2.5rem !important;
-    
+
 
   }
+
+
+
+}
+
+@media(min-width: 1200px){
+
+  nav{
+
+      padding: 5% !important;
+
+      .nav-link{
+
+        font-size: 1.2rem !important;
+        font-weight: 800 !important;
+
+      }
+
+
+  }
+
+
 
 
 

@@ -535,6 +535,12 @@ svg {
   .frontpage__services ul {
     font-size: 1.7rem; } }
 
+@media (min-width: 1200px) {
+  .frontpage__services {
+    padding: 5% !important; }
+    .frontpage__services ul {
+      font-size: 2.5rem; } }
+
 /*
 
 To make the loading screen work, we have to manipulate the following DOM
@@ -633,6 +639,10 @@ loading-screen class - set visibility to visible while load then after, set visi
     font-size: 2.5rem;
     position: relative;
     top: -1rem !important; } }
+
+@media (min-width: 1200px) {
+  #portfolio-list .container {
+    grid-gap: 7rem; } }
 
 #the-team {
   background: #F9F9F9;
@@ -774,6 +784,14 @@ footer {
     font-size: 3.5rem;
     left: 2.4rem !important;
     top: 1.8rem !important; } }
+
+@media (min-width: 1200px) {
+  footer .social-media-panel .container {
+    height: 20vh !important; }
+  footer .social-media-panel .circle i {
+    font-size: 6.5rem !important;
+    left: 3.5rem !important;
+    top: 3.5rem !important; } }
 
 html {
   box-sizing: border-box; }
@@ -921,6 +939,9 @@ nav .custom-icon {
   color: white;
   font-size: 2.2rem; }
 
+nav .nav-link {
+  text-transform: uppercase; }
+
 .navbar-toggler {
   background: none !important;
   border: none !important; }
@@ -939,6 +960,13 @@ nav .custom-icon {
 @media (min-width: 768px) {
   .navbar-brand {
     font-size: 2.5rem !important; } }
+
+@media (min-width: 1200px) {
+  nav {
+    padding: 5% !important; }
+    nav .nav-link {
+      font-size: 1.2rem !important;
+      font-weight: 800 !important; } }
 
 /*--------------------------------------------------------------
 # Accessibility
